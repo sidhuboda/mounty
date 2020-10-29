@@ -1,0 +1,14 @@
+.card {
+    display: inline-block;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}

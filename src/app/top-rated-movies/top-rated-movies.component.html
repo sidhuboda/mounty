@@ -1,0 +1,8 @@
+<p>Top Rated Movies list!</p>
+
+<div class="card col-md-3 " *ngFor="let item of list">
+    <img class="card-img-top" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/{{item.poster_path}}" alt="Card image cap">
+    <div class="card-body">
+        <p class="card-text">{{item.title}}</p>
+    </div>
+</div>
